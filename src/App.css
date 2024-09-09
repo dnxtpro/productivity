@@ -1,0 +1,413 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.background {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.timerycosas{
+  display:flex;
+  flex-direction: row;
+}
+
+.h2{
+  align-items: center;
+  margin-left: 100px;
+}
+@font-face {
+  font-family: 'Subjectivity';
+  font-style: normal;
+  font-weight: 400;
+  src:
+    local("letra.otf") format("otf"),
+    
+}
+
+.fuenteperso{
+ 
+}
+/* CSS */
+
+
+.button-561 {
+  margin-right: 10px;
+  margin-left: 50px;
+  background-color: #17BEBB; 
+}
+.button-562 {
+  background-color: #EF3E36; 
+}
+
+
+.button-561:hover:after,
+.button-562:hover:after {
+  transform: translate(1, 0);
+}
+
+.button-561:active,
+.button-562:active {
+  background-color: #daffdc;
+  outline: 0;
+}
+
+.button-561:hover,
+.button-562:hover {
+  background-color: #2E282A;
+  color: #FAD8D6;
+  box-shadow: rgba(0, 0, 0, 0.5) 0 8px 15px;
+  outline: 2px;
+  transform: translateY(-2px);
+}
+
+@media (min-width: 768px) {
+  .button-561,
+  .button-562 {
+    padding: 0 40px;
+  }
+}
+
+
+
+.TimerContainer {
+  text-align: center;
+}
+
+.Timer {
+  font-size: 36px; /* Ajusta este valor para cambiar el tamaño del cronómetro */
+  font-weight: bold;
+  margin-top: 10px;
+  color: #EF3E36;
+  margin-left: 45px;
+  text-align: center;
+}
+
+.Milliseconds {
+  font-size: 18px; /* Ajusta este valor para cambiar el tamaño de los milisegundos */
+  color: #777;
+}
+
+
+
+label {
+  
+  display: block;
+  margin-bottom: 5px;
+}
+.modal-content{
+  border-radius: 200px;
+
+}
+input {
+  text-decoration-color: #121212;
+  background-color: #17bebb9f;
+  padding: 8px;
+  font-size: 16px;
+  border-width: 45px;
+  border: 2px solid #17bebb9f; /* Cambia el color del borde según tus preferencias */
+  border-radius: 5px; /* Ajusta este valor para cambiar la redondez de las esquinas */
+  width: 100%; /* O ajusta un ancho específico según tus necesidades */
+  box-sizing: border-box; /* Garantiza que el ancho incluya el relleno y el borde */
+  margin-bottom: 10px; 
+  
+}
+/* App.css o estilos específicos para TASK NAME y TASK DESCRIPTION */
+
+
+.container {
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+  
+  
+}
+
+
+
+
+/* CSS */
+.button-35,
+.button-351 {
+  align-items: center;
+  
+  border-radius: 8px; /* Reduced border-radius */
+  box-shadow: transparent 0 0 0 3px, rgba(18, 18, 18, 0.1) 0 6px 20px;
+  box-sizing: border-box;
+  color: #121212;
+  cursor: pointer;
+  display: inline-flex;
+  flex: 1 1 auto;
+  font-family: Inter, sans-serif;
+  font-size: 14px; /* Increased font size */
+  font-weight: 700;
+  justify-content: center;
+  line-height: 1;
+  margin: 2px;
+  outline: none;
+  padding: 0.5rem 0.8rem; /* Reduced padding */
+  text-align: center;
+  text-decoration: none;
+  transition: box-shadow 0.2s, -webkit-box-shadow 0.2s;
+  white-space: nowrap;
+  border: 0;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin-left: 10px;
+}
+
+.button-35:hover,
+.button351:hover {
+  box-shadow: #694141 0 0 0 3px;
+  background-color:rgba(239, 62, 54, 0.25);
+
+}
+.button-351{
+  background-color: #dbebc6;
+}
+.button-35,
+.button-350{
+  font-weight: bold;
+  font-size: 14px;
+  margin-left: auto;
+  background-color: transparent;
+  
+  cursor: pointer;
+  outline: none;
+  padding: 2px; /* Elimina el relleno para que se ajuste al tamaño del icono */
+  width: auto; /* Ajusta el ancho automáticamente al contenido (icono) */
+  height: auto; /* Ajusta la altura automáticamente al contenido (icono) */
+  transition: all 500ms ease-out(.23, .23, 0.32, .32);
+}
+.button-350{
+  border: #111;
+  border-radius: 10px;
+}
+.button-350:hover{
+  color: #FAD8D6;
+  margin-left: auto;
+  background-color: #094948;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  padding: 8px; /* Elimina el relleno para que se ajuste al tamaño del icono */
+  width: auto; /* Ajusta el ancho automáticamente al contenido (icono) */
+  height: auto; /* Ajusta la altura automáticamente al contenido (icono) */
+  transition: all 500ms ease-out(.23, .23, 0.32, .32);
+
+}
+.button-35:hover{
+  margin-left: auto;
+  background-color: #EF3E36;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  padding: 8px; /* Elimina el relleno para que se ajuste al tamaño del icono */
+  width: auto; /* Ajusta el ancho automáticamente al contenido (icono) */
+  height: auto; /* Ajusta la altura automáticamente al contenido (icono) */
+  transition: all 500ms ease-out(.23, .23, 0.32, .32);
+}
+
+.add-icon{
+  background-color: transparent;
+  width: 20px;
+  height: 20px;
+}
+.delete-icon{
+  color: #EF3E36;
+  width: 20px;
+  height: 20px;
+}
+
+  
+
+.button-container {
+  display: flex;
+  flex-direction:row;
+  align-content: center;
+  justify-content: center;
+  margin-top: 10px; /* Ajusta según sea necesario */
+
+}
+.container5{
+  display:flex;
+  flex-direction: column;
+  align-items:start;
+  justify-content: left;
+  margin: 10px;
+
+}
+
+.label {
+  display: block;
+  margin-bottom: 8px;
+  color: #333; /* Color del texto */
+}
+li{
+  display:flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.input1 {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc; /* Borde del control de entrada */
+  border-radius: 4px; /* Bordes redondeados */
+  box-sizing: border-box; /* Mantiene el ancho correcto considerando el relleno y el borde */
+}
+.modal-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centra horizontalmente */
+}
+
+.filter-container {
+  display: flex;
+  
+  flex-direction:column ;
+  margin-left: 20px;
+  align-items: center;
+  
+  margin-bottom: 20px;
+}
+.filter2{
+  margin-top: 10px;
+
+}
+.filter {
+  display: flex;
+  flex-direction: row;
+  flex:1;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #333;/* Espaciado entre cada filtro */
+  margin-left: 10px;
+  border-color: #111;
+  border-width: 2px;
+  
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between; /* Espaciamiento uniforme entre botones */
+}
+
+.container2{ 
+  padding: 20px;
+  margin-top: -500px;
+}
+
+.container1 {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.current-day-pending{
+  color:#111;
+  font-weight: bold; 
+}
+.past-day-pending{
+  color:#db0d0d;
+  font-weight: bold; 
+
+}
+.current-day-completed{
+  color:#22a248;
+  font-weight: bold; 
+
+}
+.past-day-completed{
+  color:#959595;
+  font-weight: bold; 
+
+}
+.future-day-completed{
+  color:#271082;
+  font-weight: bold; 
+
+}
+.contenedor-tareas{
+  color: rgb(20, 66, 83);
+  font-size: 20px;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 0px;
+}
+.contenedor-resumen-dia{
+   
+
+  justify-content: center;
+}
+.nombres
+{
+  align-items: center;
+  display: flex;
+  flex: content;
+  flex-direction: column;
+}
+.add{
+display: flex;
+flex-direction: row;
+}
+.add-button{
+  background-color: transparent;
+  border-width: 45px;
+  border: 2px solid #17bebb9f; /* Cambia el color del borde según tus preferencias */
+  border-radius: 5px; /* Ajusta este valor para cambiar la redondez de las esquinas */
+  width: 20%; /* O ajusta un ancho específico según tus necesidades */
+  box-sizing: border-box; /* Garantiza que el ancho incluya el relleno y el borde */
+  margin-bottom: 10px; 
+  margin-left: 10px;
+}
+.descripcion{
+  margin-top: 10px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.botonobj{
+  width: 800px;
+  height: auto;
+  display:flex;
+  margin-top: 20px;
+  margin-bottom:2000px;
+  justify-content: center;
+}
+
+.contennn{
+margin-left: 50px;
+}
+
